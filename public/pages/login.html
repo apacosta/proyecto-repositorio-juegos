@@ -1,0 +1,6 @@
+<h1>Login</h1>
+<form ng-init="user.user='MyUser';user.pass='MyPassword'">
+    User<input type="text" ng-model="user.user"></input>
+    Password<input type="password" ng-model="user.pass"></input>
+    <input type="button" value="Login"  ng-click="user.login()">
+</form>
